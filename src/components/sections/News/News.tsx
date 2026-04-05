@@ -29,14 +29,14 @@ function News() {
                                 <span className={styles.news_item_title_type}>TOPICS</span>
                                 <span className={styles.news_item_title_date}>2026.04.01</span>
                             </p>
-                            <p className={styles.news_item_text}>PASS THE BATON MARKET vol.20 出展のお知らせ</p>
+                            <p className={styles.news_item_text}>年末年始の配送スケジュール・店舗営業について</p>
                         </div>
                         <div className={styles.news_item}>
                             <p className={styles.news_item_head}>
                                 <span className={styles.news_item_title_type}>EVENT</span>
                                 <span className={styles.news_item_title_date}>2026.04.01</span>
                             </p>
-                            <p className={styles.news_item_text}>Holiday Campaign 2025 開催のお知らせ</p>
+                            <p className={styles.news_item_text}>年末年始の配送スケジュール・店舗営業について</p>
                         </div>
                     </div>
                 </div>
