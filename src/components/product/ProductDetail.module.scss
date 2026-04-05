@@ -1,0 +1,77 @@
+.product_detail {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    position: relative;
+    &_item {
+        &_head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #384353;
+            padding: 10px;
+            .product_detail_item_title {
+                font-size: 50px;
+                font-weight: 700;
+                padding: 24px 0;
+            }
+            .product_detail_price {
+                font-size: 26px;
+                font-weight: 700;
+            }
+        }
+        .product_detail_body {
+            font-size: 16px;
+            line-height: 1.2;
+            padding: 40px 60px;
+        }
+        .product_detail_buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .product_detail_button {
+                font-size: 20px;
+                font-weight: 700;
+                padding: 10px 20px;
+                border: 1px solid #384353;
+                transition: all 0.3s ease;
+                @media (any-hover: hover) {
+                    &:hover {
+                        background: #384353;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 40px 20px;
+        &_item {
+            &_head {
+                flex-direction: column;
+                .product_detail_item_title {
+                    font-size: 24px;
+                    padding: 10px 0;
+                }
+                .product_detail_price {
+                    font-size: 20px;
+                }
+            }
+            .product_detail_body {
+                padding: 20px;
+            }
+            .product_detail_buttons {
+                flex-direction: column;
+                gap: 10px;
+                .product_detail_button {
+                    min-width: 200px;
+                    font-size: 16px;
+                    padding: 10px 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
